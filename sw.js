@@ -1,9 +1,10 @@
-const CACHE = 'gamehub-v1';
+const CACHE = 'gamehub-v2';
 
 // 新增遊戲時，把新遊戲的路徑加到這裡
 const FILES = [
   './index.html',
   './manifest.json',
+  './icon.svg',
   './games/bubble/index.html',
   './games/memory/index.html',
 ];
