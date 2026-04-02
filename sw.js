@@ -1,12 +1,20 @@
-const CACHE = 'gamehub-v2';
+const CACHE = 'gamehub-v4';
 
 // 新增遊戲時，把新遊戲的路徑加到這裡
 const FILES = [
   './index.html',
   './manifest.json',
   './icon.svg',
+  './icon-192.png',
+  './icon-512.png',
   './games/bubble/index.html',
+  './games/bubble/manifest.json',
+  './games/bubble/icon-192.png',
+  './games/bubble/icon-512.png',
   './games/memory/index.html',
+  './games/memory/manifest.json',
+  './games/memory/icon-192.png',
+  './games/memory/icon-512.png',
 ];
 
 self.addEventListener('install', e => {
